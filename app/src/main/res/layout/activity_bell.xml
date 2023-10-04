@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Bell">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#CDDC39"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints">
+
+
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:text="Notifications"
+            android:textSize="33dp"/>
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="43dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/backbutton"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-76dp"
+        tools:layout_editor_absoluteY="79dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="145dp"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:baselineAligned="true"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/lastDay"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="260dp"
+                android:src="@drawable/lastday"
+                tools:ignore="ContentDescription,RtlHardcoded" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textStyle="bold"
+                android:textColor="@color/teal_200"
+                android:textSize="14dp"
+                android:text="Summer 2023 flight for just 184$ taxes for Bolbol members! join Bolblo and book your ticket by the end of today. Only on el.com and the mobile app." />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        tools:layout_editor_absoluteX="0dp"
+        android:layout_margin="16dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="275dp"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="250dp"
+                android:src="@drawable/amusement" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:textStyle="bold"
+                android:textColor="@color/teal_200"
+                android:textSize="14dp"
+                android:text="Havent decide what to do? El Flex is only 8$ for my 2023 Summer tickets. You can change or cancel your ticket at least 12 hours before the departure data without penalty." />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="10dp"
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="493dp"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            tools:ignore="UselessParent">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="250dp"
+                android:src="@drawable/summer"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Summer 2023 will be a special one for Bolbol members! Join Bolbol and book your ticket by 24th October for just 14$  taxes! Only on flyEl.com and the mobile app.. "
+                android:textColor="@color/teal_200"
+                android:textStyle="bold"
+                android:textSize="14dp"/>
+
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

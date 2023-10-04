@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Special">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:background="#CDDC39">
+        <TextView
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:text="Special Offers"
+            android:textSize="24dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="110dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="61dp" />
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="43dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/backbutton" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="32dp"
+        android:background="@drawable/elm">
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="100dp"
+            android:text="EL and Hotels.com Partnership"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp">
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_margin="22dp"
+        android:layout_height="150dp">
+        <ImageView
+            android:id="@+id/bol"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/bolbol"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/summer"
+    android:background="@drawable/ready"
+    android:orientation="vertical"
+    tools:context=".Home">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_margin="3dp"
+        android:layout_weight="15"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/bell"
+            android:layout_width="60dp"
+            android:layout_weight="3"
+            android:layout_height="60dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/bello"/>
+
+
+        <ImageView
+            android:id="@+id/sign_up"
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginRight="5dp"
+            android:layout_weight="3"
+            android:src="@drawable/sign_ug" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="5"
+            android:src="@drawable/el1" />
+
+        <TextView
+            android:layout_width="60dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:text="EL"
+            android:layout_weight="11"
+            android:layout_marginTop="28dp"
+            android:textSize="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginRight="20dp"
+
+        android:background="#FFEB3B">
+        <TextView
+            android:id="@+id/search_cheap_flights"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="SEARCH CHEAP FLIGHTS"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textSize="24sp"
+
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="115dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/extra"
+            android:layout_width="150dp"
+            android:layout_height="34dp"
+            android:layout_marginLeft="160dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/extra" />
+
+        <ImageView
+            android:id="@+id/checkin"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_weight="18"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/checkin" />
+
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="15"
+        android:background="@color/white">
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_weight="3"
+            android:layout_marginRight="10dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/more"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:src="@drawable/mors"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="more"
+                android:layout_margin="2dp"
+                android:textColor="@color/black"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_weight="18"
+            android:layout_margin="5dp"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/scool"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="55dp"
+                android:src="@drawable/jog"/>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="70dp"
+                android:text="Special Offers"
+                android:textColor="@color/black"
+                android:textSize="12dp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/myflight"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/fly"/>
+            <TextView
+                android:layout_width="70dp"
+                android:layout_height="30dp"
+                android:text="myflight"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_weight="3"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/home"
+                android:layout_width="40dp"
+                android:layout_height="25dp"
+                android:src="@drawable/homs"/>
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:text="Home"
+                android:textColor="@color/black" />
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

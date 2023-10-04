@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SpecialTwo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@drawable/b"
+        android:orientation="vertical"
+        tools:ignore="Orientation">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="43dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="320dp"
+            android:src="@drawable/backbutton" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="210dp"
+            android:text="Purchase data"
+            android:textColor="#673AB7"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="40dp"
+            android:text="14 october 2022-14 october 2023"
+            android:textColor="#673AB7"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FAFAFA"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="Share"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100dp"/>
+        <ImageView
+            android:id="@+id/sha"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/shareblue"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="3px"
+        android:background="#52000000"
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="#FAFAFA">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="9dp"
+            android:text="EARN AN EXTRA 1000 BoL POINTS AND get EL FlEX FOR FREE WITH BOLBOL YOuTH!! 1)This offer,available exclusively for BolBol Youth members,offers you the opportunity to earn an extra 1000 bol points for flights and to add El Flex to your booking free of charge to make penalty free amendments and cancellation Flex  (2 In order to make penalty-free-booking amendments and cancellations withe El Flex,the EL flex option must be added to your booking (3 EL general Terms and conditions will apply to any other items not listed here..(4 the offer is only valid on flights operated by El.the offer is not available on flights running in partnership with other airlines..   "/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39">
+        <TextView
+            android:id="@+id/text43"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="PURCHASE FLIGHT TICKET"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>

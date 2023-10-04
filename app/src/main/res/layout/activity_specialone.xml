@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Specialone">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="270dp"
+        android:background="@drawable/elm"
+        android:orientation="vertical"
+        tools:ignore="Orientation">
+
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="43dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="320dp"
+            android:src="@drawable/backbutton" />
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="300dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="187dp"
+            android:layout_marginRight="30dp"
+            android:text="EL and Hotels.com Partnership"
+            android:textColor="@color/white"
+            android:textSize="19sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_margin="16dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="210dp"
+            android:text="Purchase data"
+            android:textColor="#673AB7"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="40dp"
+            android:text="1 December 2023-3 january 2023"
+            android:textColor="#673AB7"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#FAFAFA"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:text="Share"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="100dp"/>
+        <ImageView
+            android:id="@+id/blueshare"
+            android:layout_width="75dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/shareblue"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="3px"
+        android:background="#52000000"
+        ></LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="#FAFAFA">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginLeft="9dp"
+            android:text="Campaign Offer:Get 20% off or more from selected hotel booking in Paris,Rome,Landon,Dubai,Barcelona,Milan,istanbul,Antalya and Bodrum ,ade via the link between 1 December 2023-3 january 2023 (Tickets must be booked,and the transaction completed,within the period between 1 December 2022 at 00:01 israel local time and 3 january 2023 at 23:59 israel local time.EL bears no responsibility for any dispute that may arise between Hotels.com and the customer regarding Hotels .com rental service including the use of its website and mobile app.EL cannot be subject to any requests in this regard    "/>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="15dp"
+        android:background="#CDDC39">
+        <TextView
+            android:id="@+id/pur"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:text="PURCHASE FLIGHT TICKET"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20sp"/>
+    </LinearLayout>
+</LinearLayout>

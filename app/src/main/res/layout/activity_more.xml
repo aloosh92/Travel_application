@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F8FFFAFA"
+    tools:context=".More">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFEB3B"
+        tools:ignore="MissingConstraints">
+
+
+
+
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="More"
+            android:textSize="28dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="140dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="61dp" />
+        <ImageView
+            android:id="@+id/backButton"
+            android:layout_width="43dp"
+            android:layout_height="32dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/backbutton" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_margin="17dp"
+        android:background="@drawable/border"
+
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="Settings"
+                android:textSize="15sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="210dp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:src="@drawable/seeing"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/rights"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="4dp"
+                android:text="You can set options such as your language and currency settings here"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_margin="17dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="115dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="200dp"
+                android:text="Departure-Arrival Information"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/fly_yellow" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/rights"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="4dp"
+                android:text="you can find up-to-data Departure-Arrival Information about flight here "
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_margin="17dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="Covid-19 measures"
+                android:textSize="15sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="160dp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="30dp"
+                android:layout_margin="3dp"
+                android:src="@drawable/covid"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/rights"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="4dp"
+                android:text="you can find infromation about travelling and covid-19 here."
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_margin="17dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="General Information"
+                android:textSize="15sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="160dp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:src="@drawable/icon2"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/rights"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="4dp"
+                android:text="You can view EL general infromation and rules here"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="85dp"
+        android:layout_margin="17dp"
+        android:background="@drawable/border"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:text="Contact Us"
+                android:textSize="15sp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="160dp"
+                android:textColor="@color/black"/>
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_margin="3dp"
+                android:src="@drawable/emailyeloow"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="30dp"
+                android:src="@drawable/rights"/>
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="4dp"
+                android:text="were here to answer all your questions and listen to your feedback"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
